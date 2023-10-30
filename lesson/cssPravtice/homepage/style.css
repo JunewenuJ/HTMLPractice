@@ -1,0 +1,57 @@
+header{
+    background-color: #fff5ee;
+    padding:20px 0;
+}
+
+body {
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+main {
+    text-align: center;
+}
+
+
+ul{
+    /*箇条書きの.を削除*/
+    list-style: none;
+    /*liたちを横並びにする*/
+    display:flex;
+    /*隙間をつくる*/
+    gap:0 10px;
+    /*中央*/
+    justify-content: end;
+}
+
+.last{
+    margin-right:500px;
+}
+
+ul li.last:hover {
+    color: red;
+}
+
+
+
+.blog-contens{
+    display:flex;   /*重要*/
+    width:90%;
+    gap:0 20px;
+    justify-content: center;
+    margin:0 auto;
+}
+.blog{
+    width:30%;
+}
+img{
+    width:100%;
+}
+.red-text {
+    color: red; 
+}
+
+
+
+
+
+
